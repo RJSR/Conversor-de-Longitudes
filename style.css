@@ -1,0 +1,78 @@
+/* Estilo para el cuerpo del documento */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#383e56;
+}
+
+/* Estilo para el Titulo */
+strong{
+    font-size: 35px;
+    color: #fb743e;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Estilo para el Resultado */
+#mensaje{
+    font-size: 22px;
+    color: #95e1d3;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Estilo para la entrada */
+input{
+    margin: 10px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Estilo para el recuadro que contiene la aplicación */
+.cuadro{
+    display: block;
+    border-style: solid;
+    padding: 15px;
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #383e56;
+    margin-top: 60px;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.80), 0 6px 20px 0 rgba(0, 0, 0,0.75);
+    
+
+}
+
+/* Estilo para el grupo de botones */
+.botones{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+/* Estilo para cada botón */
+button{
+    background-color: #709fb0;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+    border-style: none;
+    color: whitesmoke;
+    width: 215px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+
+button:hover{
+    background-color: #a7c5eb;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+
+}
+
+button:active{
+    background-color: #e45826;
+}

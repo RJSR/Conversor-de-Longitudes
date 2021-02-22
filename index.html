@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Longitudes</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Elaborar una aplicación que permita transformar longitudes -->
+
+  <!-- División para enmarcar todo en un recuadro -->
+  <div class="cuadro"> 
+    <section class="texto">
+      <strong>Conversor de Longitudes</strong><br>
+
+      <br>Ingrese valor a convertir:<br>
+      <input type="number" id ="cantidad" name="numero">
+      <div id="mensaje"></div><br> <!-- Un div que empieza vacío y luego se modifica para añadir el resultado-->
+      
+      Seleccione la conversion que quiere hacer:<br><br></section>
+    
+    <!-- Sección que contiene todos los botones a usar -->
+    <section class = "botones">
+      <button onclick="convertir(event)" name="Centímetros-a-Metros">Centímetros a Metros</button>
+      <button onclick="convertir(event)" name="Metros-a-Centimetros">Metros a Centimetros</button><br><br>
+
+      <button onclick="convertir(event)" name="Metros-a-Kilometros">Metros a Kilómetros</button>
+      <button onclick="convertir(event)" name="Kilometros-a-Metros">Kilómetros a Metros</button><br><br>
+
+      <button onclick="convertir(event)" name="Kilometros-a-Millas">Kilometros a Millas</button>
+      <button onclick="convertir(event)" name="Millas-a-Kilometros">Millas a Kilometros</button><br><br>
+
+      <button onclick="convertir(event)" name="Centimetros-a-Pulgadas">Centímetros a Pulgadas</button>
+      <button onclick="convertir(event)" name="Pulgadas-a-Centimetros">Pulgadas a Centímetros</button><br><br>
+
+      <button onclick="convertir(event)" name="Metros-a-Pies">Metros a Pies</button>
+      <button onclick="convertir(event)" name="Pies-a-Metros">Pies a Metros</button><br><br>
+  </section>
+  </div>
+</body>
+</html>
